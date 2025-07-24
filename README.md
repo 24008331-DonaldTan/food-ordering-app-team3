@@ -12,4 +12,4 @@ Task: CRUD for Food Items (Admin add/edit/delete menu)
 - Delete route not tested
 
 🚫 Blockers:
-- Didn’t have time to do EJS files yet (will complete by next week)
+- Didn’t have time to do EJS files yet (will complete soon)
