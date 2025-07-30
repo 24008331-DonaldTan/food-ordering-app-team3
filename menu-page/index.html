@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Menu</h1>
+
+  <input type="text" id="search" placeholder="Search food...">
+
+  <h2>Filter by Category</h2>
+  <div id="category-buttons">
+    <button data-category="all">All</button>
+    <button data-category="local">Local</button>
+    <button data-category="noodles">Noodles</button>
+    <button data-category="western">Western</button>
+  </div>
+
+  <div id="menu-list">
+    <div class="menu-item" data-category="local">
+      <img src="img/chicken-rice.png" alt="Chicken Rice">
+      <div class="details">
+        <h3>Chicken Rice</h3>
+        <p>$5</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item" data-category="noodles">
+      <img src="img/laksa.jpg" alt="Laksa">
+      <div class="details">
+        <h3>Laksa</h3>
+        <p>$6</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item" data-category="western">
+      <img src="img/burger.jpg" alt="Burger">
+      <div class="details">
+        <h3>Burger</h3>
+        <p>$4.50</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item" data-category="local">
+      <img src="img/nasi-lemak.jpeg" alt="Nasi Lemak">
+      <div class="details">
+        <h3>Nasi Lemak</h3>
+        <p>$5.50</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
