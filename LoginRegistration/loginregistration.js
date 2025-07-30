@@ -4,6 +4,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 const app = express();
 
+//please change this as neccessary, i dont really know the details
 const db = mysql.createConnection({
     host:     'c237-all.mysql.database.azure.com',
     user:     'c237admin',
